@@ -1,0 +1,85 @@
+﻿.LoginTextbox {
+    float:left;
+    clear:left;
+    width: 50%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    margin-left:25%;
+}
+
+.ForgetPass {
+float:left;
+clear:left;
+margin-left:25%;
+}
+
+html, body,form{
+
+min-height:100vh;
+}
+
+body{
+    text-align:center;
+    background-image:url("images/backgroundImg.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    margin: 0px;
+}
+
+h1{
+    display:inline;
+    font-size:40px;
+}
+
+.SystemTitle{
+    position:absolute;
+    top:18%;
+    left:35%;
+    color:dodgerblue;
+}
+
+.loginPanel{
+    position:absolute;
+    width:30%;
+    top:25%;
+    left:35%;
+    margin-bottom:0px; 
+    text-align:center;
+    background-color:white;
+    overflow:hidden;
+    
+}
+.loginTitle{
+    font-family:Impact, Charcoal, sans-serif;
+    color:#1A7FEC;
+    
+}
+
+.btnSignIn:hover, .btnSignUp:hover{
+    background-color:#0D1BCE;
+}
+
+.btnSignIn, .btnSignUp{
+    background-color: #1A7FEC; /* Green */
+    border: none;
+    color: white;
+    float:left;
+    clear:left;
+    width:50%;
+    margin-left:25%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.btnSignUp {
+    
+    margin-bottom:10px;
+}
